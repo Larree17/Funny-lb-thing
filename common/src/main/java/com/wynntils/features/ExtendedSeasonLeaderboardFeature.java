@@ -125,7 +125,7 @@ public class ExtendedSeasonLeaderboardFeature extends Feature {
         }
 
         ChatFormatting guildStyle = guildSeasonLeaderboardLabelInfo.getGuild().equals(Models.Guild.getGuildName())
-                ? ChatFormatting.GREEN
+                ? ChatFormatting.ORANGE
                 : ChatFormatting.AQUA;
         // §<color><place>§7 - §b<guild name> [<guild tag>]§d (<formatted score> SR) §a(+<score diff to next>)
         MutableComponent newLabel = Component.empty()
